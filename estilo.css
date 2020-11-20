@@ -1,0 +1,37 @@
+body{
+    font:oblique 20px georgia;
+    background:burlywood;
+    color:saddlebrown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+input{
+    font:oblique 18px georgia;
+    color: saddlebrown;
+    background:cornsilk;
+    width: 100px;
+    height: 28px;
+    border: none;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 2px 2px saddlebrown;
+    text-align: center;
+    transition: 0.25s ease-in-out;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+input[type="button"]:hover {
+    background:rgb(224, 179, 119);
+    transform: scale(0.9);
+}
+
+input[type="button"]{
+    margin-left: 10px;
+    width: initial;
+    height: initial;
+    padding: 5px 15px;
+}
